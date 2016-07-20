@@ -1,0 +1,10 @@
+language: java
+
+# cache the Maven repository per branch, so that we avoid downloading artifacts each time...
+cache:
+  directories:
+    - $HOME/.m2
+
+# we will only support jdk 8
+jdk:
+  - oraclejdk8
